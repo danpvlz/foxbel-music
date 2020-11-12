@@ -11,9 +11,15 @@ export default class CatalogoPrincipal extends React.Component{
     render(){
         return(
         <div className="container" style={{marginLeft: this.props.pantallaMin ? '20px' : '330px'}}>
-            <CatalogoTop pantallaMin={this.props.pantallaMin}/>
+            <CatalogoTop pantallaMin={this.props.pantallaMin} handleSearch={this.props.handleSearch}/>
             <VideoDetalle pantallaMin={this.props.pantallaMin}/>
-            <Resultados pantallaMin={this.props.pantallaMin}/>
+            {
+                this.props.resultados.length==0
+                ?
+                ""
+                :
+                <Resultados id={this.props.id} playing={this.props.playing} handleSongChange={this.props.handleSongChange} pantallaMin={this.props.pantallaMin} resultados={this.props.resultados}/>
+            }
         </div>
         );
     }

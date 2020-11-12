@@ -9,8 +9,8 @@ export default class BarraControl extends React.Component {
   render() {
     return (
         <div className="barra-control d-flex justify-content-between fixed-bottom">
-            <ReproduciendoInfo />
-            <ReproduciendoAcciones />
+            <ReproduciendoInfo songPlaying={this.props.songPlaying} />
+            <ReproduciendoAcciones handlePlay={this.props.handlePlay} playing={this.props.playing} />
             <ReproduciendoVolumen />
         </div>
     );

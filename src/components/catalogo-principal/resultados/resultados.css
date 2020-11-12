@@ -2,3 +2,15 @@
     padding-bottom: 200px;
 }
 
+.resultado img{
+    position: relative;
+    z-index: 2;
+}
+
+.resultado span {
+    position: absolute;
+    z-index: 2;
+    margin-top: 40%;
+    margin-left: 40%;
+    cursor: pointer;
+}
