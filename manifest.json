@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "foxbel-music-icon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "foxbel-music-icon@2x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "foxbel-music-icon@3x.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#E86060",
+  "background_color": "#ffffff"
+}
