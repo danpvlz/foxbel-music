@@ -1,0 +1,19 @@
+.input-buscar{
+    width: 100%;
+    height: 36px;
+}
+
+.input-buscar .form-control:focus {
+    outline: 1 !important;
+    border-color:  rgba(189,189,189,1);
+    box-shadow: none;
+}
+
+.input-buscar input{
+    border-radius: 25px;
+}
+
+.input-buscar .input-group-text{
+    border-radius: 25px;
+    color: rgba(189,189,189,1);
+}

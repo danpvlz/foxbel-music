@@ -1,0 +1,23 @@
+.sesion-info{
+    margin-top: 4px;
+    max-width: 200px;
+}
+
+.sesion-info-icon{
+    color: var(--principal);
+}
+
+.sesion-info p{
+    color: #4F4F4F;
+}
+
+.nombre-pantallaMin{
+    position: relative;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 499px) {
+    .sesion-info p{
+        display: none !important;
+    }
+}

@@ -1,0 +1,85 @@
+.video-detalle {
+    height: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.portada-video-detalle:hover {
+    filter: brightness(0.75);
+    z-index: 2;
+}
+
+.portada-video-detalle {
+    position: relative;
+    cursor: pointer;
+}
+
+.portada-video-detalle img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    z-index: 2;
+}
+
+.portada-video-detalle span {
+    position: absolute;
+    margin-top: 89px;
+    margin-left: 93px;
+    z-index: 2;
+}
+
+.detalle-video-detalle {
+    position: relative;
+    transform: scaleX(-1);
+    opacity: 0.75;
+    background: linear-gradient(0deg, rgba(167, 0, 0, 0.5), rgba(167, 0, 0, 1)),
+        url("https://wallpaperaccess.com/full/1695845.jpg") no-repeat;
+    background-size: cover;
+    width: 890px;
+    height: 250px;
+}
+
+.detalle-video-detalle .contenido {
+    position: absolute;
+    transform: scaleX(-1);
+    margin-top: 40px;
+    margin-right: 290px;
+    margin-left: 55px;
+    z-index: 1;
+    height: 250px;
+}
+
+.seguidores {
+    font-size: 13px;
+    color: #240c0c;
+}
+
+.reproducir {
+    border: 2px solid var(--principal);
+    background-color: var(--principal);
+    color: white;
+    border-radius: 50px;
+    width: 117px;
+}
+
+.seguir {
+    background-color: transparent;
+    color: var(--principal);
+    border: 1px solid var(--principal);
+    border-radius: 50px;
+
+    width: 117px;
+}
+
+.mas {
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: top;
+}
+
+.detalle {
+    margin-top: 20px;
+}

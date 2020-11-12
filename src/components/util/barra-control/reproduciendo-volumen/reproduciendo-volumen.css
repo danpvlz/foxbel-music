@@ -1,0 +1,34 @@
+@media only screen and (max-width: 576px) {
+    #reproduciendo-volumen {
+        display: none;
+    }
+}
+
+.reproduciendo-volumen-icon{
+    margin-right: 32px;
+    margin-top: 28px;
+}
+
+.reproduciendo-volumen-icon span{
+   font-size: 30px;
+}
+
+input[type="range"]{
+    margin-top: 47px;
+    -webkit-appearance: none;
+    width: 100px;
+    height: 6px;
+    outline: none;
+    background: #ffff;
+    border-radius: 20px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 20px;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background:#ffff;
+    cursor: pointer;
+}
