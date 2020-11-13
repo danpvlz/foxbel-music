@@ -1,4 +1,4 @@
-.portadaReproduciendo{
+.portadaReproduciendo {
     width: 100px;
     height: 100px;
     padding: 0px;
@@ -6,24 +6,24 @@
     user-select: none;
 }
 
-.info{
+.info {
     margin-top: 24px;
     margin-left: 20px;
     user-select: none;
 }
 
-.cancionInfo{
-    max-width:200px;
+.cancionInfo {
+    max-width: 200px;
     -webkit-line-clamp: 2;
-   -webkit-box-orient: vertical;
-    overflow:hidden;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     margin-top: 8px;
 }
 
 @media only screen and (max-width: 768px) {
-    .cancionInfo{
-        max-width:100px;
+    .cancionInfo {
+        max-width: 100px;
     }
 }

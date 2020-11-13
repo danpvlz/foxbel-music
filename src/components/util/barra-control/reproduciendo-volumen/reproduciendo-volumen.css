@@ -4,16 +4,16 @@
     }
 }
 
-.reproduciendo-volumen-icon{
+.reproduciendo-volumen-icon {
     margin-right: 32px;
     margin-top: 28px;
 }
 
-.reproduciendo-volumen-icon span{
-   font-size: 30px;
+.reproduciendo-volumen-icon span {
+    font-size: 30px;
 }
 
-input[type="range"]{
+input[type="range"] {
     margin-top: 47px;
     -webkit-appearance: none;
     width: 100px;
@@ -29,6 +29,6 @@ input[type="range"]::-webkit-slider-thumb {
     appearance: none;
     width: 20px;
     height: 20px;
-    background:#ffff;
+    background: #ffff;
     cursor: pointer;
 }

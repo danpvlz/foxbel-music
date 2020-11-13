@@ -82,6 +82,10 @@ class Index extends React.Component {
         }
     };
 
+    handleVolume = (volumen) => {
+        this.audio.volume = volumen;
+    };
+
     render() {
         return (
             <React.StrictMode>
@@ -105,6 +109,7 @@ class Index extends React.Component {
                         ""
                     ) : (
                         <BarraControl
+                            handleVolume={this.handleVolume}
                             handlePlay={this.handlePlay}
                             playing={this.state.playing}
                             songPlaying={this.state.songPlaying}
